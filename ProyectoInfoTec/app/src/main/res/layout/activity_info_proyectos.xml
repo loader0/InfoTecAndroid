@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoProyectos">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar">
+    </include>
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:textSize="30dp"
+        android:textColor="#D900325F"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="Informacion Proyecto">
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titulo"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:text="Proyecto"
+                android:textSize="22dp"
+                android:textStyle="bold">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/nomProyecto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/status"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titulo"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:text="Tipo"
+                android:textSize="22dp"
+                android:textStyle="bold">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/tipoProyecto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/status"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titulo"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:text="Empresa"
+                android:textSize="22dp"
+                android:textStyle="bold">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/nomEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/status"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="Contacto"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/nomContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/status"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="Telefono"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/status"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="Correo"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/correo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/status"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="Vacantes"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/vacante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/status"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="Direccón"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/direccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/status"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="Descripcion"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_gravity="center">
+            </TextView>
+
+            <TextView
+                android:id="@+id/descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/status"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold">
+            </TextView>
+
+            <Button
+                android:id="@+id/btnSuscribirse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#061180"
+                android:text="Suscribirse"
+                android:textColor="#F8F4F4"
+                android:textStyle="bold">
+            </Button>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
